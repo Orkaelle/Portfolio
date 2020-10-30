@@ -1,0 +1,283 @@
+/* MON STYLE PERSO */
+
+/*   Général     */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: black;
+}
+  
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a:active {
+    color: rgb(117, 45, 55);
+}
+
+i {
+    transition: 0.5s;
+}
+
+a > i:hover {
+    transform: scale(1.2);
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+h3 {
+    font-weight: normal;
+    margin: 0;
+    padding-top: 4%;
+}
+
+.fond {
+    float: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 90%;
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+
+/* INDEX */
+
+.txthome {
+    position: fixed;
+    height: 40%;
+    width: 80%;
+    left: 10%;
+    top: 30%;
+}
+
+.txthome1 {
+    position: relative;
+}
+  
+.txthome2 {
+    position: relative;
+    font-size: 500%;
+}
+
+.txthome3 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 1%;
+    font-size: 200%;
+}
+
+  
+/*   MAIN     */
+
+    /* EN TÊTE */
+  
+    .cercle {
+        position: fixed;
+        left: -11px;
+        top: -20px;
+        width: 170px;
+        height: 170px;
+        border-radius: 0px 85px 85px 85px;
+        box-shadow: 1px 1px 5px grey;
+        background:white;
+        z-index: 2;
+    }
+
+    .logo {
+        position: relative;
+        width: 140px;
+        left: 15px;
+        top: 30px;
+        z-index: 1;
+    }
+
+    .logo:hover {
+        transition: 1s;
+        transform: rotate(360deg);
+    }
+
+    .bandeau {
+        position: fixed;
+        width: 100%;
+        box-shadow: 1px 1px 5px grey;
+        background: white;
+        z-index: 1;
+    }
+
+    .menu {
+        position: relative;
+        text-align: left;
+        left: 15%;
+        padding: 20px;
+        float: left;
+        z-index: 3;
+        color: black;
+    }
+
+    .menu a {
+        font-size: 1em;
+        font-weight: bold;
+        margin-right: 30px;
+        color: black;
+    }
+
+    .menu a.selected {
+        color: rgb(117, 45, 55);
+    }
+
+    .reseaux {
+        position: relative;
+        text-align: right;
+        right: 1%;
+        padding-top: 1%;
+    }
+
+    .reseaux a {
+        margin-right: 1%;
+    }
+
+    .contenu {
+        position: absolute;
+        top: 10vh;
+        height: 90vh;
+        width: 100%;
+    }
+
+
+    /* CONTENU */
+
+        /* about */
+
+        .photo {
+            position: fixed;
+            height: 90%;
+            right: 25%;
+            bottom: 0%;
+        }
+
+        .main {
+            position: relative;
+            padding: 10% 45% 10% 15%;
+        }
+
+        .main > table > tbody > tr {
+            position: relative;
+            padding-top: 8%;
+        }
+
+        .main > table > tbody > tr > td {
+            position: relative;
+            left: -20px;
+            width: 110px;
+        }
+
+        .anniv {
+            position: fixed;
+            right: 15%;
+            top: 20%;
+            text-align: center;
+        }
+
+        .child {
+            position: fixed;
+            right: 13%;
+            top: 40%;
+            text-align: center;
+        }
+
+        .vaccins {
+            position: fixed;
+            right: 14%;
+            top: 60%;
+            text-align: center;
+        }
+
+
+
+        /* competences */
+        .tech {
+            position: absolute;
+            width: 30%;
+            height: 75vh;
+            left: 15%;
+            top: 5vh;
+            text-align: center;
+            display: inline;
+        }
+
+        .soft {
+            position: absolute;
+            width : 30%;
+            height: 75vh;
+            right: 15%;
+            top: 5vh;
+            text-align: center;
+            display: inline;
+        }
+
+        .tablecomp {
+            position: absolute;
+            width: 90%;
+            height: 70vh;
+            left: 5%;
+            text-align: center;
+            background: rgba(200, 200, 200, 0.5)
+        }
+
+
+        /* parcours */
+
+        .fleche {
+            position: absolute;
+            top: 70vh;
+            height: 4vh;
+            width: 97%;
+            background:
+                linear-gradient(to right, rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 1));
+        }
+
+        .pointe {
+            position: absolute;
+            top: 66.5vh;
+            right: 0;
+            width: 50px;
+            height: 70px;
+            background-color:  rgba(90, 90, 90, 1);
+        
+            clip-path: polygon(0 0, 0 100%, 100% 50%);
+        }
+
+        .simplon {
+
+        }
+
+        /* Contacts */
+
+        .contacts {
+            width: 60;
+        }
+    
+    
